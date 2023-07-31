@@ -1,0 +1,51 @@
+h1, body, html, main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+
+nav{
+    position: relative;
+    height: 38em;
+  background-image: url("./soup.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+h1{
+    position: absolute;
+    bottom: 280px;
+    right: 490px;
+    font-size: 70px;
+    color: #ffffff;
+}
+
+
+div{
+    text-align: center;
+    margin-top: 80px;
+}
+hr{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.Ingredients{
+    text-align: left;
+    position: relative;
+    left: 65px;
+}
+li{
+    list-style-type: none;
+    
+}
+.img{
+  position: relative;  
+  left: 400px;
+
+}
+.move{
+    position: relative;
+    left: 40px;
+}
